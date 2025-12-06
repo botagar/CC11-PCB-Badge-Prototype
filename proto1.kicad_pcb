@@ -433,6 +433,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2f10e3d-269e-40f1-89e4-53cb97f3c2d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/83f0d012-1558-484d-a392-5074b73d0069")
 		(sheetname "/")
@@ -829,6 +842,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af20bbb1-77b3-4855-b943-10a478517e66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d3a31f08-f2de-456f-91dd-ec904805bdc4/63dd9f06-8b6d-4815-adeb-244687c5aba0")
 		(sheetname "/radio/")
@@ -1217,6 +1243,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d356276b-04fa-4045-91ed-b15e3437af6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2fc6b6d0-bf3c-4cae-836a-40a7e3dc542e")
 			(effects
 				(font
 					(size 1 1)
@@ -1641,6 +1680,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6233f42a-c911-44b0-a57c-54c1a80d87ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1120d76e-ce04-4d3a-a9f6-a73259552341")
 			(effects
 				(font
 					(size 1 1)
@@ -2126,6 +2178,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0320c3e8-d62c-4303-912b-357ef20c84f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9d1c9623-3d4c-4305-8597-62fef3b7a597/d1fca3d7-21b0-4504-a8ab-adc4d9ecff4f")
 		(sheetname "/Power/")
@@ -2514,6 +2579,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "79b67652-70b1-4cdc-aa2d-6855b301762d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa9625c6-293f-45fe-b1bb-363aa5948a33")
 			(effects
 				(font
 					(size 1 1)
@@ -2916,6 +2994,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60f13450-2986-4f0a-8186-2e55da47840b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9d1c9623-3d4c-4305-8597-62fef3b7a597/bb1a2e79-6ced-46cc-89d3-1912543be577")
 		(sheetname "/Power/")
@@ -3304,6 +3395,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9cbb5ba0-96a6-4a6c-87aa-b7b030b73ba8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4f5285d-5a6c-4206-b43d-4526eec3ad3f")
 			(effects
 				(font
 					(size 1 1)
@@ -3706,6 +3810,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b19fe0b-fbe8-48b4-821d-d8a312b0f5cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/9d1c9623-3d4c-4305-8597-62fef3b7a597/b6bf8fa3-1867-472b-b384-58b4a40d365c")
 		(sheetname "/Power/")
@@ -4097,6 +4214,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "251db4e8-fb7c-46fa-98d6-a47e769602c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4572e88-42fc-483c-a376-935467749ea1")
 			(effects
 				(font
 					(size 1 1)
@@ -4554,6 +4684,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "72a749f8-5700-461e-8bf1-647d0d699159")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45e74f99-6d53-48de-a011-14a822fe9dd4")
 			(effects
 				(font
 					(size 1 1)
@@ -5370,6 +5513,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47fcf4b0-7d00-4123-b9f8-01416cb7c06b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/d3a31f08-f2de-456f-91dd-ec904805bdc4/773e658c-e935-42d9-8016-db66873cdc04")
 		(sheetname "/radio/")
@@ -5742,6 +5898,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7733765e-6836-44bb-8212-ad9ac7a654a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "*TC2030*")
 		(path "/c9595430-ca42-47c8-8ae3-8cf39d222ed2")
 		(sheetname "/")
@@ -6006,6 +6175,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "da5ba35a-08de-41c4-9fd7-3760dbcf8c78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "834cf175-16a4-4165-9e7a-ee95c1a43062")
 			(effects
 				(font
 					(size 1 1)
@@ -6410,6 +6592,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df64f58f-2dea-4e8d-b5d0-4fc6b4c2e9e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f6a551dc-ba49-4d40-ba52-bda26cacdf37/22116108-07cd-4841-a167-674ad8f48c67")
 		(sheetname "/mic/")
@@ -6798,6 +6993,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bf3b4579-b385-42c4-a9c7-45606d80dfd0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ecc86fe9-5d53-4fff-a372-98d8c800618a")
 			(effects
 				(font
 					(size 1 1)
@@ -7202,6 +7410,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c8a2620-3329-4d9d-9a5e-49e906b94204")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/9f9fec86-fd57-485a-9c2c-f392584eb833")
 		(sheetname "/")
 		(sheetfile "proto1.kicad_sch")
@@ -7572,6 +7793,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "262a71c3-2897-492b-bee6-744f5486ec9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/738479b5-104a-450a-946f-fc2be5c3057e/4d8da06b-feea-4e5b-8194-5712a738cca3")
 		(sheetname "/sensors/")
@@ -7790,6 +8024,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "083592a6-b38b-421a-8382-62deaf876fe1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f53f72af-290f-4425-b375-672a668cc94b")
 			(effects
 				(font
 					(size 1 1)
@@ -8139,6 +8386,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "158a08a8-8432-485e-8d7d-73d8ab966e77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a4054d4-0a1a-43d5-a454-89e398a0f93a")
 			(effects
 				(font
 					(size 1 1)
@@ -8955,6 +9215,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c17edd9-26fb-42d8-bc06-395b7df6c01b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ccc588a5-8782-4b51-b62e-2ed158b9bc31")
 		(sheetname "/")
@@ -9151,6 +9424,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "https://www.lcsc.com/product-detail/C45359896.html"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7385acd-b5d7-46b5-b29a-120d4695d792")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Est Cost" "0.0006"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57873f1a-04c1-4a2b-959f-e7786c2db3a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0fa0a722-5b06-4f17-bf53-6ec338dbe876")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9543,6 +9855,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "463f9a7d-73c5-4bd4-a7be-6d3e8b035ec9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b85e250b-7e7d-4c9a-9fa0-04994a16266e")
 			(effects
 				(font
 					(size 1 1)
@@ -9945,6 +10270,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b189af3d-a428-45a6-910c-43cc28b706c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/22bbe2ec-01cd-4658-ac3d-e9b7d2ccecc8")
 		(sheetname "/")
@@ -10333,6 +10671,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a19107d2-486e-4dad-8b57-d4537721f2b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d0c7e07-005c-4968-acce-86efbe7817fc")
 			(effects
 				(font
 					(size 1 1)
@@ -10729,6 +11080,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ae791d0a-a32f-42fb-bddf-41ae9ed7e4f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ea2707e-1df9-4ebc-b6fb-f02397b75147")
 			(effects
 				(font
 					(size 1 1)
@@ -11133,6 +11497,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a60c9190-0e40-4fd4-9a22-533f71afb70e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/d2281c12-da46-4bca-b9eb-32026496af73")
 		(sheetname "/")
 		(sheetfile "proto1.kicad_sch")
@@ -11484,6 +11861,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2b6ea325-4623-4654-8466-51ee7f742730")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96926e69-614e-4e86-8317-2e0633a9cc7b")
 			(effects
 				(font
 					(size 1 1)
@@ -12302,6 +12692,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94031f68-61c5-48d3-8b75-39d64f0f211a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/9462a10b-e22b-40ba-b43a-a2982195d2c9")
 		(sheetname "/")
 		(sheetfile "proto1.kicad_sch")
@@ -12665,6 +13068,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "517e2db3-5bc6-4a62-96f1-cf41e21ae5e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77bcac9b-532a-4ed9-96c9-e3f9e249f27c")
 			(effects
 				(font
 					(size 1 1)
@@ -13069,6 +13485,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b9a2016-fdd7-447f-a82d-67547d6d699c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/3a7dc719-d825-447e-93ff-361e93d01f97")
 		(sheetname "/")
 		(sheetfile "proto1.kicad_sch")
@@ -13420,6 +13849,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0d22b28d-54ef-4f4f-8a4a-bc2b499c221a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9367237a-2c2b-4521-8eeb-6ff0415a773a")
 			(effects
 				(font
 					(size 1 1)
@@ -14217,6 +14659,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8a4120db-a1d0-4583-a6eb-66070c0a1345")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4abc37c-3c54-4f12-955e-cc3293d9e118")
 			(effects
 				(font
 					(size 1 1)
@@ -15033,6 +15488,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aedad6d2-58bb-4669-aa70-e774a4a21869")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*")
 		(path "/738479b5-104a-450a-946f-fc2be5c3057e/4b044e6b-14a6-41c9-9c29-cfcd92fa1af3")
 		(sheetname "/sensors/")
@@ -15421,6 +15889,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5e048cb8-ae8a-4a62-bbc1-51e6e9a19ab2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "244edfa7-0452-4088-bdb8-2049acf0a96d")
 			(effects
 				(font
 					(size 1 1)
@@ -15823,6 +16304,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9a94cfd-ee46-484c-9422-65233acb7bf0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d3a31f08-f2de-456f-91dd-ec904805bdc4/af5cea84-063e-4473-93d8-0ebf1873d202")
 		(sheetname "/radio/")
@@ -16210,6 +16704,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b456b637-a586-41d4-9a19-144ac50eacc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52bc463e-5f5e-48e3-ae08-4dd836059d06")
 			(effects
 				(font
 					(size 1 1)
@@ -17279,6 +17786,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af88c0da-ff76-4697-9500-ac6f84f5b523")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23?5*")
 		(path "/9d1c9623-3d4c-4305-8597-62fef3b7a597/5c568313-6662-4e54-9014-cce171f0a295")
 		(sheetname "/Power/")
@@ -17801,6 +18321,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "040667a1-8d5f-428d-9911-b8c08de4af83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20f01a9f-84c8-4b5a-986c-be134080b9eb")
 			(effects
 				(font
 					(size 1 1)
@@ -18422,6 +18955,45 @@
 				)
 			)
 		)
+		(property "Vendor" "https://www.lcsc.com/product-detail/C45359896.html"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4681fb4a-5e39-42b8-8057-141778d673ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Est Cost" "0.0006"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff981df7-8867-4205-870d-385bd9564d18")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6daca69a-e458-476f-9628-27553a84c0e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/35847609-191f-49cf-bec0-c0798f853c0c")
 		(sheetname "/")
@@ -18618,6 +19190,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "https://www.lcsc.com/product-detail/C42371856.html"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87366162-5f7d-4d03-8a5b-54d0b5609ba4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Est Cost" "0.0007"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70a4d48b-da52-49c5-9b2e-c1e09be83aa5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec506faa-d989-45b6-b898-7b480e47656c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -18993,6 +19604,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6470cea-d510-441b-a16f-dafc91ae93a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/738479b5-104a-450a-946f-fc2be5c3057e/39e32059-033d-4cdb-8ec1-c14d1864e315")
 		(sheetname "/sensors/")
@@ -19069,7 +19693,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2988369.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19145,7 +19769,7 @@
 				)
 			)
 		)
-		(property "Vendor" "https://www.lcsc.com/product-detail/C5150972.html?s_z=n_12402012E212A"
+		(property "Vendor" "https://www.lcsc.com/product-detail/C2988369.html"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19158,7 +19782,7 @@
 				)
 			)
 		)
-		(property "Est Cost" "0.34"
+		(property "Est Cost" "0.0488"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19333,6 +19957,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e8666314-fae7-48f7-9f98-e14f7fe49518")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3bf5ec6-1f7d-4ddf-b297-aadfb81774fb")
 			(effects
 				(font
 					(size 1 1)
@@ -19712,11 +20349,24 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3b45753-2db7-4f5d-aff4-cae3423994c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9d1c9623-3d4c-4305-8597-62fef3b7a597/486e6597-9cb7-458f-a857-daa9872cc0a4")
 		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -1.33 1.27)
 			(end -1.33 3.87)
@@ -20161,6 +20811,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15bc5a79-1192-4f86-a11b-e36d1899df3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d3a31f08-f2de-456f-91dd-ec904805bdc4/659bb27f-7c2a-481d-b071-eb3fe9cadefa")
 		(sheetname "/radio/")
@@ -20367,6 +21030,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2da46322-2438-496e-b0e0-7b25a02bb8c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2933a47e-8b32-46d9-b8a7-9472e08f7179")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "https://www.lcsc.com/product-detail/C965799.html"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e60489c-10d8-4115-b1ff-c2c0bcc42fae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Est Cost" "0.0022"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e65d2cb-4604-4f0f-b3e7-fc3903f9dba7")
 			(effects
 				(font
 					(size 1 1)
@@ -20767,6 +21469,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0560255-1f19-4f87-8ab9-8a809d45e1df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/738479b5-104a-450a-946f-fc2be5c3057e/6c9ac187-80c3-40c3-8d01-f8aef876999a")
 		(sheetname "/sensors/")
@@ -21057,6 +21772,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2afa6de5-dfe7-41c5-ac61-1ccb5b360104")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2bb6fe1a-3c2d-4a0c-b3df-35e3578b0289")
 			(effects
 				(font
 					(size 1 1)
@@ -21459,6 +22187,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ae3cdbf-513b-4747-af5a-56e489ca2974")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d3a31f08-f2de-456f-91dd-ec904805bdc4/76134b16-4e6c-4ec5-b4ff-45ca63d3058f")
 		(sheetname "/radio/")
@@ -21854,6 +22595,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90dc39b1-24f5-4234-adce-47dc8cf0a40e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f7b407fc-fdd1-4efd-ae89-a9b56207db27")
 		(sheetname "/")
@@ -22007,7 +22761,7 @@
 		(at 55.278265 59.203848)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
-		(property "Reference" "VUSB"
+		(property "Reference" "TP4"
 			(at 0 -1.648 0)
 			(layer "F.SilkS")
 			(uuid "95d14e06-7380-4e3d-a754-2cb888e8b9f7")
@@ -22224,6 +22978,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be312bc3-7970-4b6e-8913-09d2d79f69fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/9d1c9623-3d4c-4305-8597-62fef3b7a597/3ee3f2df-75a6-479f-9c35-a793f83c81f2")
 		(sheetname "/Power/")
@@ -22348,6 +23115,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cd15c368-6514-4df3-b920-ed0b4df4825c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05e856c5-7195-42e8-b5fc-0cd2d3c9b5b5")
 			(effects
 				(font
 					(size 1 1)
@@ -22785,6 +23565,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "576b4b04-9170-4d21-bd01-01b9d28a5f30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/d3a31f08-f2de-456f-91dd-ec904805bdc4/b193afd3-9e05-4d06-b01f-be65fc819405")
 		(sheetname "/radio/")
@@ -23172,6 +23965,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7345a711-bf3b-4b1a-a0a0-c64ba1e0a9c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "903ec157-bbf9-4572-a284-52f6062dad9a")
 			(effects
 				(font
 					(size 1 1)
@@ -23792,6 +24598,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "969c93ff-6ee6-40f5-945f-3e650cafe6d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/738479b5-104a-450a-946f-fc2be5c3057e/83924556-8c6f-41e0-9473-128a99351ffa")
 		(sheetname "/sensors/")
@@ -24190,6 +25009,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74958b41-6817-4edc-9c20-1e3925e09739")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/f6a551dc-ba49-4d40-ba52-bda26cacdf37/469c5f66-823e-4ebc-b30e-d5799c83204f")
 		(sheetname "/mic/")
 		(sheetfile "mic.kicad_sch")
@@ -24530,6 +25362,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d8dc2de3-d9eb-4366-a456-80ee3ecdb66f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c8d6af9-0f7c-4071-8487-2ddcbbc9144a")
 			(effects
 				(font
 					(size 1 1)
@@ -24925,6 +25770,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "baea16ae-a5c8-45da-b5d4-a444f3415f52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5c2a895-e79c-481a-abbb-a9ede7e5f80e")
 			(effects
 				(font
 					(size 1 1)
@@ -25453,6 +26311,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73c588b3-6466-41fa-96e3-f12930e2a4cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/2c176c53-4bd9-4381-981f-d41cb7848dd0")
 		(sheetname "/")
@@ -25841,6 +26712,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0dd01e99-61d2-4e13-bc78-5eb2e5cf5b0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b615b726-2cf7-4b57-b2d6-087bddd13910")
 			(effects
 				(font
 					(size 1 1)
@@ -26244,6 +27128,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92e7d30a-21b3-46fc-ae92-8a241a3dc435")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d3a31f08-f2de-456f-91dd-ec904805bdc4/88d4a4ed-35fc-4189-9e76-35e36f517484")
 		(sheetname "/radio/")
@@ -26639,6 +27536,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6da931a-8d89-4c7a-b92f-56170015cd3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/738479b5-104a-450a-946f-fc2be5c3057e/51706807-4b9e-429a-8dfd-8aaf03b9ddf7")
 		(sheetname "/sensors/")
@@ -26835,6 +27745,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor" "https://www.lcsc.com/product-detail/C42371856.html"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5724102c-b5e9-4173-9c7b-182dd9497415")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Est Cost" "0.0007"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bee99fba-6e49-44d6-b303-a712c96e5330")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d15edc4f-3e8a-4695-b9fd-19c8ad1ec367")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -27235,6 +28184,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25d7e1f9-6582-485f-a1a4-a3f54998f791")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9d1c9623-3d4c-4305-8597-62fef3b7a597/a3ffbd49-8096-4f75-80ff-75c8831fa6fb")
 		(sheetname "/Power/")
@@ -27623,6 +28585,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f061ef54-fc78-497b-8a52-08486523e161")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c3fa33d-5277-4a7d-88a0-304cdc3e071d")
 			(effects
 				(font
 					(size 1 1)
@@ -28026,6 +29001,19 @@
 				)
 			)
 		)
+		(property "Field6" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5acdec4-7d05-4c5e-9992-eff15c228946")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9d1c9623-3d4c-4305-8597-62fef3b7a597/6b751cb9-4a82-45a2-a9fb-b1339954c69a")
 		(sheetname "/Power/")
@@ -28228,6 +29216,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field6" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "608f481b-c517-4790-ab01-7e0d5c969876")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)

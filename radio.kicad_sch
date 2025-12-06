@@ -1096,6 +1096,12 @@
 		(uuid "590cdd1f-e2e5-417b-ac8a-0635c6e6a517")
 	)
 	(junction
+		(at 208.28 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a04c21c1-9cf1-4d33-88f7-d8364f5868df")
+	)
+	(junction
 		(at 196.85 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1127,7 +1133,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 101.6) (xy 213.36 101.6)
+			(xy 196.85 101.6) (xy 208.28 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1194,6 +1200,16 @@
 			(type default)
 		)
 		(uuid "1a73c30e-8b49-4d97-825f-eaa20c0da7db")
+	)
+	(wire
+		(pts
+			(xy 208.28 101.6) (xy 213.36 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a801834-204c-45f5-8455-cf6f734665f0")
 	)
 	(wire
 		(pts
@@ -1344,6 +1360,26 @@
 			(type default)
 		)
 		(uuid "9d936e93-1709-4d94-80d1-0f0d30902457")
+	)
+	(wire
+		(pts
+			(xy 213.36 96.52) (xy 208.28 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4d15c2d-bf09-4b22-bf4f-86931f225db5")
+	)
+	(wire
+		(pts
+			(xy 208.28 96.52) (xy 208.28 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a833f06a-51b0-44b8-abe1-030cf7429e5f")
 	)
 	(wire
 		(pts
@@ -1536,6 +1572,17 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "antenna_sig_out"
+		(shape output)
+		(at 213.36 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b708d00d-1e6f-4c05-9d5c-3eac7dbf14ad")
 	)
 	(symbol
 		(lib_id "Diode:BAV99")

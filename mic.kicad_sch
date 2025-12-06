@@ -527,10 +527,22 @@
 		)
 	)
 	(junction
+		(at 142.24 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6982beb-377d-43d4-899f-2fd2fb579dad")
+	)
+	(junction
 		(at 101.6 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c599c64b-1b60-4ba7-acc9-c90a2f846485")
+	)
+	(junction
+		(at 142.24 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb31b442-6716-4ca1-a7ca-b564f047ba44")
 	)
 	(junction
 		(at 101.6 97.79)
@@ -540,7 +552,37 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 105.41) (xy 144.78 105.41)
+			(xy 142.24 110.49) (xy 142.24 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08158085-00db-4206-9691-a6f0a3ffbb56")
+	)
+	(wire
+		(pts
+			(xy 142.24 105.41) (xy 144.78 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b93776f-d9c5-40b6-a01e-9a111783d236")
+	)
+	(wire
+		(pts
+			(xy 142.24 97.79) (xy 144.78 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22aee096-8c56-4b5e-9080-ad2390107774")
+	)
+	(wire
+		(pts
+			(xy 130.81 105.41) (xy 142.24 105.41)
 		)
 		(stroke
 			(width 0)
@@ -560,13 +602,23 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 97.79) (xy 144.78 97.79)
+			(xy 130.81 97.79) (xy 142.24 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "60e2a8c8-1718-4226-8971-8c84357dbcf7")
+	)
+	(wire
+		(pts
+			(xy 144.78 110.49) (xy 142.24 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf9dd64-7cc2-4c79-8a10-5537eab8c577")
 	)
 	(wire
 		(pts
@@ -590,6 +642,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 92.71) (xy 142.24 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bedf77a2-bb45-4573-84dc-1875645e6143")
+	)
+	(wire
+		(pts
 			(xy 101.6 107.95) (xy 101.6 105.41)
 		)
 		(stroke
@@ -607,6 +669,16 @@
 			(type default)
 		)
 		(uuid "c5d597da-71a4-4985-9dc6-f1c9047a522e")
+	)
+	(wire
+		(pts
+			(xy 142.24 92.71) (xy 142.24 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f25dbb82-be1f-42f8-95ed-a43194a03d4b")
 	)
 	(wire
 		(pts
@@ -661,6 +733,28 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "MIC_PDM"
+		(shape output)
+		(at 144.78 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3cadd720-abde-486b-b0ce-a3aac42f92f1")
+	)
+	(hierarchical_label "SPI_CLK"
+		(shape input)
+		(at 144.78 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a72504f-2b33-49d2-8820-5aeaa75841b5")
 	)
 	(symbol
 		(lib_id "Device:C")
