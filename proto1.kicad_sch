@@ -5540,6 +5540,16 @@
 		)
 		(uuid "74a59a59-3426-4fc4-a80f-f305684d805d")
 	)
+	(label "PB15"
+		(at 251.46 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74e3adef-6785-4749-a227-8cef8e96184f")
+	)
 	(label "PA2"
 		(at 39.37 185.42 0)
 		(effects
@@ -5699,16 +5709,6 @@
 			(justify left bottom)
 		)
 		(uuid "96190a31-9f34-4d9b-9a04-9ae8d4c8804a")
-	)
-	(label "PC6"
-		(at 251.46 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "96bfbec0-e83f-45cf-a4cf-e5f3cfd92b33")
 	)
 	(label "PA5"
 		(at 256.54 49.53 0)
@@ -6342,7 +6342,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 58.928 99.06 90)
 			(effects
 				(font
@@ -6716,7 +6716,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 221.488 137.16 90)
 			(effects
 				(font
@@ -7127,7 +7127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 22.5552 104.14 0)
 			(effects
 				(font
@@ -9103,7 +9103,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 32.258 86.36 90)
 			(effects
 				(font
@@ -11210,7 +11210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 163.5252 43.18 0)
 			(effects
 				(font
@@ -12154,7 +12154,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 230.378 137.16 90)
 			(effects
 				(font
