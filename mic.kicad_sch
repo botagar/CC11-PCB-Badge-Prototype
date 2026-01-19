@@ -52,6 +52,24 @@
 					(hide yes)
 				)
 			)
+			(property "Est Cost" "0.33178"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor" "https://www.digikey.com.au/en/products/detail/3s-solid-state-system/3SM222FMB1VA/25559041"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "_1_0_1"
 				(rectangle
 					(start -6.35 -1.27)
@@ -526,18 +544,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 107.95 83.82)
-		(end 137.16 118.11)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid cd40bd9b-9ea5-481c-a45d-ad021de4aa52)
-	)
 	(junction
 		(at 101.6 105.41)
 		(diameter 0)
@@ -671,7 +677,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 105.41 102.8699 0)
 			(effects
 				(font
@@ -698,7 +704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100nF ±10% 6.3V Ceramic Capacitor X7R 0402"
 			(at 101.6 101.6 0)
 			(effects
 				(font
@@ -707,16 +713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "https://www.lcsc.com/product-detail/C6119883.html"
-			(at 101.6 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Est Cost" "0.002"
+		(property "Est Cost" ""
 			(at 101.6 101.6 0)
 			(effects
 				(font
@@ -843,6 +840,69 @@
 			)
 		)
 		(property "Field6" ""
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alibaba" ""
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Est Cost (1000)" "0.0007"
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C22435938.html"
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HRE"
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No" "CGA0402X7R104K6R3GT"
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 101.6 101.6 0)
 			(effects
 				(font
@@ -976,7 +1036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3SM222FMB1VA MEMS Microphone IC"
+		(property "Description" "100 Hz ~ 10 kHz Digital, PDM Microphone MEMS (Silicon) 1.6 V ~ 3.6 V Omnidirectional (-26dB ±1dB @ 94dB SPL) Solder Pads"
 			(at 121.92 93.98 0)
 			(effects
 				(font
@@ -985,16 +1045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Est Cost" "0.33178"
-			(at 121.92 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "https://www.digikey.com.au/en/products/detail/3s-solid-state-system/3SM222FMB1VA/25559041"
+		(property "Est Cost" ""
 			(at 121.92 93.98 0)
 			(effects
 				(font
@@ -1121,6 +1172,69 @@
 			)
 		)
 		(property "Field6" ""
+			(at 121.92 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alibaba" ""
+			(at 121.92 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.com.au/en/products/detail/3s-solid-state-system/3SM222FMB1VA/25559041"
+			(at 121.92 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Est Cost (1000)" "0.33178"
+			(at 121.92 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "3S (Solid State System)"
+			(at 121.92 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No" "3SM222FMB1VA"
+			(at 121.92 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1mm"
+			(at 121.92 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 121.92 93.98 0)
 			(effects
 				(font
@@ -1266,7 +1380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "1uF ±10% 10V Ceramic Capacitor X5R 0402"
 			(at 91.44 101.6 0)
 			(effects
 				(font
@@ -1275,16 +1389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "https://www.lcsc.com/product-detail/C6119818.html"
-			(at 91.44 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Est Cost" "0.0027"
+		(property "Est Cost" ""
 			(at 91.44 101.6 0)
 			(effects
 				(font
@@ -1411,6 +1516,69 @@
 			)
 		)
 		(property "Field6" ""
+			(at 91.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alibaba" ""
+			(at 91.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Est Cost (1000)" "0.001"
+			(at 91.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C7503520.html"
+			(at 91.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HRE"
+			(at 91.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No" "CGA0402X5R105K100GT"
+			(at 91.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 91.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 91.44 101.6 0)
 			(effects
 				(font

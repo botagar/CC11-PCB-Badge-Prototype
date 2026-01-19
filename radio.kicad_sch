@@ -1060,30 +1060,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 110.49 87.63)
-		(end 137.16 109.22)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 52176952-b85a-4e21-8afb-21f4190b82a8)
-	)
-	(rectangle
-		(start 166.37 86.36)
-		(end 193.04 110.49)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 5acc45be-b700-4f3e-8703-5c6faa1d3948)
-	)
 	(text "Makes up part of a HPF filtering out 50Hz noise"
 		(exclude_from_sim no)
 		(at 196.596 136.144 0)
@@ -1125,12 +1101,6 @@
 		(uuid "cdc4a76d-c0c7-49d4-9722-69547cf0c0f7")
 	)
 	(junction
-		(at 69.85 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8364ae0-af05-4255-aff3-a46cfb522304")
-	)
-	(junction
 		(at 54.61 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1145,16 +1115,6 @@
 			(type default)
 		)
 		(uuid "02fef497-82b6-407c-819e-c294731ab97c")
-	)
-	(wire
-		(pts
-			(xy 81.28 73.66) (xy 81.28 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "058dcabd-8cdd-4fbe-8d52-65bdc6214f81")
 	)
 	(wire
 		(pts
@@ -1198,23 +1158,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 86.36) (xy 54.61 96.52)
+			(xy 54.61 92.71) (xy 54.61 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1a73c30e-8b49-4d97-825f-eaa20c0da7db")
-	)
-	(wire
-		(pts
-			(xy 69.85 50.8) (xy 69.85 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ecad4bf-f657-43a2-9ebf-eec8ef325511")
 	)
 	(wire
 		(pts
@@ -1318,16 +1268,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 78.74) (xy 54.61 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e08705e-0a85-4e7c-87e6-ef000400f38a")
-	)
-	(wire
-		(pts
 			(xy 125.73 59.69) (xy 125.73 63.5)
 		)
 		(stroke
@@ -1348,16 +1288,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 60.96) (xy 69.85 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d936e93-1709-4d94-80d1-0f0d30902457")
-	)
-	(wire
-		(pts
 			(xy 54.61 96.52) (xy 74.93 96.52)
 		)
 		(stroke
@@ -1375,16 +1305,6 @@
 			(type default)
 		)
 		(uuid "af0bc4e8-2c77-4a06-856b-62b951e6f420")
-	)
-	(wire
-		(pts
-			(xy 54.61 63.5) (xy 69.85 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1fa3702-9a82-40dc-9b19-7947072ac9b4")
 	)
 	(wire
 		(pts
@@ -1428,16 +1348,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 66.04) (xy 81.28 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf3e48f1-9b8d-4761-a70e-3fb68cd13ef3")
-	)
-	(wire
-		(pts
 			(xy 196.85 114.3) (xy 184.15 114.3)
 		)
 		(stroke
@@ -1468,6 +1378,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 85.09) (xy 54.61 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b7af69-c3ea-4686-9210-0c3e11b27469")
+	)
+	(wire
+		(pts
 			(xy 134.62 99.06) (xy 137.16 99.06)
 		)
 		(stroke
@@ -1475,16 +1395,6 @@
 			(type default)
 		)
 		(uuid "ee1bb473-a348-4f49-bc4d-af8fb4d5e1ee")
-	)
-	(wire
-		(pts
-			(xy 69.85 73.66) (xy 69.85 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef55b941-1836-4ac3-92c1-684fec6143b6")
 	)
 	(wire
 		(pts
@@ -1496,25 +1406,27 @@
 		)
 		(uuid "efc869cd-b70b-47a9-84be-a4dd3a13d583")
 	)
-	(wire
-		(pts
-			(xy 69.85 63.5) (xy 69.85 66.04)
+	(global_label "1V6"
+		(shape passive)
+		(at 54.61 81.28 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
-		(stroke
-			(width 0)
-			(type default)
+		(uuid "8d3198c6-ab64-46f0-a845-bccac1ae563c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.61 75.8985 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
 		)
-		(uuid "f0a18357-ce5e-43f5-b5bd-042ee609a676")
-	)
-	(wire
-		(pts
-			(xy 69.85 63.5) (xy 81.28 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0a7b902-df39-41ab-84bd-735fdd79fd99")
 	)
 	(hierarchical_label "antenna_sig_out"
 		(shape output)
@@ -1573,7 +1485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+		(property "Description" "Diode Array 1 Pair Series Connection 100V 200mA Surface Mount SOT-23"
 			(at 95.25 96.52 0)
 			(effects
 				(font
@@ -1582,16 +1494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "https://www.lcsc.com/product-detail/C909763.html?s_z=n_BAV99"
-			(at 95.25 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Est Cost" "0.0056"
+		(property "Est Cost" ""
 			(at 95.25 96.52 90)
 			(effects
 				(font
@@ -1726,6 +1629,78 @@
 				(hide yes)
 			)
 		)
+		(property "Alibaba" ""
+			(at 95.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Est Cost (1000)" " 0.0063"
+			(at 95.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C909763.html?s_z=n_BAV99"
+			(at 95.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1mm"
+			(at 95.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GOODWORK"
+			(at 95.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No" "BAV99"
+			(at 95.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 95.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 95.25 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "82374586-4366-44ee-a392-be564f74e431")
 		)
@@ -1739,72 +1714,6 @@
 			(project "proto1"
 				(path "/2278e2fd-36c6-4249-8d4d-34faf9e30fb7/d3a31f08-f2de-456f-91dd-ec904805bdc4"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 69.85 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15e93d94-d0fa-4dcf-9c64-92474748dae3")
-		(property "Reference" "#PWR031"
-			(at 69.85 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 69.85 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 69.85 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ab52d734-c40c-4f31-b9d6-94e9aa35d05a")
-		)
-		(instances
-			(project "proto1"
-				(path "/2278e2fd-36c6-4249-8d4d-34faf9e30fb7/d3a31f08-f2de-456f-91dd-ec904805bdc4"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -1877,220 +1786,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 81.28 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34b47569-a1e8-4ccf-a7f6-72dc58d03cf3")
-		(property "Reference" "C8"
-			(at 85.09 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 85.09 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 82.2452 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 81.28 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "https://www.lcsc.com/product-detail/C6119883.html"
-			(at 81.28 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Est Cost" "0.002"
-			(at 81.28 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" ""
-			(at 81.28 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 81.28 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 81.28 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" ""
-			(at 81.28 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 81.28 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Est Cost AUD" ""
-			(at 81.28 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 81.28 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 81.28 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 81.28 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PRICE" ""
-			(at 81.28 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 81.28 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 81.28 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 81.28 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 81.28 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4172c0cb-c89f-4059-b364-3e886ac43fc2")
-		)
-		(pin "1"
-			(uuid "79e49c7a-22e1-4812-a952-8165d8435418")
-		)
-		(instances
-			(project "proto1"
-				(path "/2278e2fd-36c6-4249-8d4d-34faf9e30fb7/d3a31f08-f2de-456f-91dd-ec904805bdc4"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:MCP6002-xMS")
 		(at 180.34 101.6 0)
 		(unit 2)
@@ -2116,7 +1811,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SuperSOT-8"
+		(property "Footprint" "Package_SO:SOP-8_3.76x4.96mm_P1.27mm"
 			(at 180.34 101.6 0)
 			(effects
 				(font
@@ -2143,16 +1838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Est Cost" "0.048"
-			(at 180.34 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "https://www.lcsc.com/product-detail/C48997707.html?s_z=n_MCP6002"
+		(property "Est Cost" ""
 			(at 180.34 101.6 0)
 			(effects
 				(font
@@ -2279,6 +1965,78 @@
 			)
 		)
 		(property "Field6" ""
+			(at 180.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alibaba" ""
+			(at 180.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 180.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Est Cost (1000)" "0.048"
+			(at 180.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.8mm"
+			(at 180.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C48997707.html?s_z=n_MCP6002"
+			(at 180.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "lingxingic"
+			(at 180.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No" "MCP6002T-I/SN(LX)"
+			(at 180.34 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 180.34 101.6 0)
 			(effects
 				(font
@@ -2316,283 +2074,6 @@
 				(path "/2278e2fd-36c6-4249-8d4d-34faf9e30fb7/d3a31f08-f2de-456f-91dd-ec904805bdc4"
 					(reference "U4")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 69.85 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f3972b6-0f88-4948-81c4-7496a9a83b8a")
-		(property "Reference" "#PWR030"
-			(at 69.85 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 69.85 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00c96020-6a95-4d3e-9789-23be7d0e709d")
-		)
-		(instances
-			(project "proto1"
-				(path "/2278e2fd-36c6-4249-8d4d-34faf9e30fb7/d3a31f08-f2de-456f-91dd-ec904805bdc4"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 69.85 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "63dd9f06-8b6d-4815-adeb-244687c5aba0")
-		(property "Reference" "R19"
-			(at 73.66 68.326 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 74.168 70.612 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 68.072 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 69.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "https://www.lcsc.com/product-detail/C49254210.html"
-			(at 69.85 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Est Cost" "0.0006"
-			(at 69.85 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" ""
-			(at 69.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 69.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 69.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" ""
-			(at 69.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 69.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Est Cost AUD" ""
-			(at 69.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 69.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 69.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 69.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PRICE" ""
-			(at 69.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 69.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 69.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 69.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 69.85 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d59ce478-e8eb-4703-8802-7f257e842c4f")
-		)
-		(pin "1"
-			(uuid "2e7ac5a0-07b5-4417-94c2-c959ee204844")
-		)
-		(instances
-			(project "proto1"
-				(path "/2278e2fd-36c6-4249-8d4d-34faf9e30fb7/d3a31f08-f2de-456f-91dd-ec904805bdc4"
-					(reference "R19")
-					(unit 1)
 				)
 			)
 		)
@@ -2641,7 +2122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "62.5mW 1kΩ 50V Thick Film Resistor ±200ppm/℃ ±5% 0402 Chip Resistor - Surface Mount RoHS"
 			(at 140.97 99.06 0)
 			(effects
 				(font
@@ -2650,16 +2131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "https://www.lcsc.com/product-detail/C2907002.html"
-			(at 140.97 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Est Cost" "0.0007"
+		(property "Est Cost" ""
 			(at 140.97 99.06 0)
 			(effects
 				(font
@@ -2786,6 +2258,69 @@
 			)
 		)
 		(property "Field6" ""
+			(at 140.97 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alibaba" ""
+			(at 140.97 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 140.97 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Est Cost (1000)" "0.0003"
+			(at 140.97 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C3017479.html"
+			(at 140.97 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "VO"
+			(at 140.97 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No" "SCR0402J1K"
+			(at 140.97 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 140.97 99.06 90)
 			(effects
 				(font
@@ -2943,7 +2478,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 82.55 0)
+		(at 54.61 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2952,7 +2487,7 @@
 		(fields_autoplaced yes)
 		(uuid "76134b16-4e6c-4ec5-b4ff-45ca63d3058f")
 		(property "Reference" "R20"
-			(at 57.15 81.2799 0)
+			(at 57.15 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2961,7 +2496,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 57.15 83.8199 0)
+			(at 57.15 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2970,7 +2505,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 52.832 82.55 90)
+			(at 52.832 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2979,7 +2514,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 82.55 0)
+			(at 54.61 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2987,8 +2522,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 54.61 82.55 0)
+		(property "Description" "1MΩ ±5% 62.5mW 0402 Thick Film Resistor"
+			(at 54.61 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2996,17 +2531,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "https://www.lcsc.com/product-detail/C49254192.html"
-			(at 54.61 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Est Cost" "0.0006"
-			(at 54.61 82.55 0)
+		(property "Est Cost" ""
+			(at 54.61 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3015,7 +2541,7 @@
 			)
 		)
 		(property "AVAILABILITY" ""
-			(at 54.61 82.55 0)
+			(at 54.61 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3024,7 +2550,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 54.61 82.55 0)
+			(at 54.61 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3033,7 +2559,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 54.61 82.55 0)
+			(at 54.61 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3042,7 +2568,7 @@
 			)
 		)
 		(property "DESCRIPTION" ""
-			(at 54.61 82.55 0)
+			(at 54.61 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3051,7 +2577,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 54.61 82.55 0)
+			(at 54.61 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3060,7 +2586,7 @@
 			)
 		)
 		(property "Est Cost AUD" ""
-			(at 54.61 82.55 0)
+			(at 54.61 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3069,7 +2595,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 54.61 82.55 0)
+			(at 54.61 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3078,7 +2604,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 54.61 82.55 0)
+			(at 54.61 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3087,7 +2613,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 54.61 82.55 0)
+			(at 54.61 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3096,7 +2622,7 @@
 			)
 		)
 		(property "PRICE" ""
-			(at 54.61 82.55 0)
+			(at 54.61 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3105,7 +2631,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 54.61 82.55 0)
+			(at 54.61 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3114,7 +2640,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 54.61 82.55 0)
+			(at 54.61 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3123,7 +2649,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 54.61 82.55 0)
+			(at 54.61 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3132,7 +2658,70 @@
 			)
 		)
 		(property "Field6" ""
-			(at 54.61 82.55 0)
+			(at 54.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alibaba" ""
+			(at 54.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 54.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Est Cost (1000)" "0.0004"
+			(at 54.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C2906900.html"
+			(at 54.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOJAN"
+			(at 54.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No" "FRC0402J105 TS"
+			(at 54.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 54.61 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3201,7 +2790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "820pF ±10% 50V Ceramic Capacitor X7R 0402"
 			(at 147.32 105.41 0)
 			(effects
 				(font
@@ -3210,16 +2799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "https://www.lcsc.com/product-detail/C107057.html"
-			(at 147.32 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Est Cost" "0.0032"
+		(property "Est Cost" ""
 			(at 147.32 105.41 0)
 			(effects
 				(font
@@ -3346,6 +2926,69 @@
 			)
 		)
 		(property "Field6" ""
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alibaba" ""
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Est Cost (1000)" "0.0007"
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C22435961.html"
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HRE"
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No" "CGA0402X7R821K500GT"
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 147.32 105.41 0)
 			(effects
 				(font
@@ -3364,220 +3007,6 @@
 			(project ""
 				(path "/2278e2fd-36c6-4249-8d4d-34faf9e30fb7/d3a31f08-f2de-456f-91dd-ec904805bdc4"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 69.85 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88d4a4ed-35fc-4189-9e76-35e36f517484")
-		(property "Reference" "R18"
-			(at 72.39 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 72.39 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 68.072 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 69.85 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "https://www.lcsc.com/product-detail/C3017691.html"
-			(at 69.85 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Est Cost" "0.0007"
-			(at 69.85 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" ""
-			(at 69.85 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 69.85 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 69.85 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" ""
-			(at 69.85 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 69.85 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Est Cost AUD" ""
-			(at 69.85 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 69.85 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 69.85 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" ""
-			(at 69.85 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PRICE" ""
-			(at 69.85 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 69.85 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 69.85 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 69.85 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 69.85 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "186a9e3b-ecd8-4d4b-bbfd-05aa8f95f620")
-		)
-		(pin "2"
-			(uuid "d5dc4baf-be67-4a64-b92d-9a5d33774a47")
-		)
-		(instances
-			(project "proto1"
-				(path "/2278e2fd-36c6-4249-8d4d-34faf9e30fb7/d3a31f08-f2de-456f-91dd-ec904805bdc4"
-					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -3629,16 +3058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 168.91 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "https://www.lcsc.com/product-detail/C519556.html"
+		(property "Description" "220nF ±10% 16V Ceramic Capacitor X7R 0402"
 			(at 168.91 132.08 0)
 			(effects
 				(font
@@ -3774,6 +3194,69 @@
 			)
 		)
 		(property "Field6" ""
+			(at 168.91 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alibaba" ""
+			(at 168.91 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Est Cost (1000)" "0.0016"
+			(at 168.91 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C6119800.html"
+			(at 168.91 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HRE"
+			(at 168.91 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No" "CGA0402X7R224K160GT"
+			(at 168.91 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 168.91 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 168.91 132.08 0)
 			(effects
 				(font
@@ -3973,7 +3456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "4.7kΩ ±5% 62.5mW 0402 Thick Film Resistor"
 			(at 78.74 96.52 0)
 			(effects
 				(font
@@ -3982,16 +3465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "https://www.lcsc.com/product-detail/C49254210.html"
-			(at 78.74 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Est Cost" "0.0006"
+		(property "Est Cost" ""
 			(at 78.74 96.52 0)
 			(effects
 				(font
@@ -4126,6 +3600,69 @@
 				(hide yes)
 			)
 		)
+		(property "Alibaba" ""
+			(at 78.74 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 78.74 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Est Cost (1000)" "0.0004"
+			(at 78.74 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C2906941.html"
+			(at 78.74 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOJAN"
+			(at 78.74 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No" "FRC0402J472 TS"
+			(at 78.74 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 78.74 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a051de29-3279-4b60-bf19-c6e93125c307")
 		)
@@ -4147,7 +3684,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ab05c1b3-935d-4cf2-91d1-1908a0147247")
@@ -4187,6 +3724,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 30.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alibaba" ""
+			(at 30.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 30.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
 			(at 30.48 97.79 0)
 			(effects
 				(font
@@ -4320,7 +3884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "62.5mW 1kΩ 50V Thick Film Resistor ±200ppm/℃ ±5% 0402 Chip Resistor - Surface Mount RoHS"
 			(at 180.34 114.3 0)
 			(effects
 				(font
@@ -4329,16 +3893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "https://www.lcsc.com/product-detail/C2907002.html"
-			(at 180.34 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Est Cost" "0.0007"
+		(property "Est Cost" ""
 			(at 180.34 114.3 90)
 			(effects
 				(font
@@ -4465,6 +4020,69 @@
 			)
 		)
 		(property "Field6" ""
+			(at 180.34 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alibaba" ""
+			(at 180.34 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 180.34 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Est Cost (1000)" "0.0003"
+			(at 180.34 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C3017479.html"
+			(at 180.34 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "VO"
+			(at 180.34 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No" "SCR0402J1K"
+			(at 180.34 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 180.34 114.3 90)
 			(effects
 				(font
@@ -4507,7 +4125,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 129.54 68.5799 0)
 			(effects
 				(font
@@ -4534,7 +4152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "100nF ±10% 6.3V Ceramic Capacitor X7R 0402"
 			(at 125.73 67.31 0)
 			(effects
 				(font
@@ -4543,16 +4161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "https://www.lcsc.com/product-detail/C6119883.html"
-			(at 125.73 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Est Cost" "0.002"
+		(property "Est Cost" ""
 			(at 125.73 67.31 0)
 			(effects
 				(font
@@ -4687,6 +4296,69 @@
 				(hide yes)
 			)
 		)
+		(property "Alibaba" ""
+			(at 125.73 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Est Cost (1000)" "0.0007"
+			(at 125.73 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C22435938.html"
+			(at 125.73 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HRE"
+			(at 125.73 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No" "CGA0402X7R104K6R3GT"
+			(at 125.73 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 125.73 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
+			(at 125.73 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5d7d69a1-fbde-4728-b9b6-07af716d70b3")
 		)
@@ -4697,72 +4369,6 @@
 			(project "proto1"
 				(path "/2278e2fd-36c6-4249-8d4d-34faf9e30fb7/d3a31f08-f2de-456f-91dd-ec904805bdc4"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 81.28 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c113c224-7f82-473b-9119-8b0d6695f674")
-		(property "Reference" "#PWR034"
-			(at 81.28 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 81.28 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4625bc99-f516-4ecb-8287-5f64a4d13c3c")
-		)
-		(instances
-			(project "proto1"
-				(path "/2278e2fd-36c6-4249-8d4d-34faf9e30fb7/d3a31f08-f2de-456f-91dd-ec904805bdc4"
-					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -4794,7 +4400,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SuperSOT-8"
+		(property "Footprint" "Package_SO:SOP-8_3.76x4.96mm_P1.27mm"
 			(at 121.92 99.06 0)
 			(effects
 				(font
@@ -4821,16 +4427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Est Cost" "0.048"
-			(at 121.92 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "https://www.lcsc.com/product-detail/C48997707.html?s_z=n_MCP6002"
+		(property "Est Cost" ""
 			(at 121.92 99.06 0)
 			(effects
 				(font
@@ -4957,6 +4554,78 @@
 			)
 		)
 		(property "Field6" ""
+			(at 121.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alibaba" ""
+			(at 121.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 121.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Est Cost (1000)" "0.048"
+			(at 121.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.8mm"
+			(at 121.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C48997707.html?s_z=n_MCP6002"
+			(at 121.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "lingxingic"
+			(at 121.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No" "MCP6002T-I/SN(LX)"
+			(at 121.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 121.92 99.06 0)
 			(effects
 				(font
@@ -5110,7 +4779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "4.02kΩ ±1% 62.5mW 0402 Thick Film Resistor"
 			(at 168.91 121.92 0)
 			(effects
 				(font
@@ -5119,16 +4788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor" "https://www.lcsc.com/product-detail/C2984443.html"
-			(at 168.91 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Est Cost" "0.0053"
+		(property "Est Cost" ""
 			(at 168.91 121.92 0)
 			(effects
 				(font
@@ -5255,6 +4915,69 @@
 			)
 		)
 		(property "Field6" ""
+			(at 168.91 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alibaba" ""
+			(at 168.91 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 168.91 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Est Cost (1000)" "0.0004"
+			(at 168.91 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C2998093.html"
+			(at 168.91 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FOJAN"
+			(at 168.91 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No" "FRC0402F4021TS"
+			(at 168.91 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 168.91 121.92 0)
 			(effects
 				(font
@@ -5438,7 +5161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SuperSOT-8"
+		(property "Footprint" "Package_SO:SOP-8_3.76x4.96mm_P1.27mm"
 			(at 139.7 67.31 0)
 			(effects
 				(font
@@ -5465,16 +5188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Est Cost" "0.048"
-			(at 139.7 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "https://www.lcsc.com/product-detail/C48997707.html?s_z=n_MCP6002"
+		(property "Est Cost" ""
 			(at 139.7 67.31 0)
 			(effects
 				(font
@@ -5601,6 +5315,78 @@
 			)
 		)
 		(property "Field6" ""
+			(at 139.7 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alibaba" ""
+			(at 139.7 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 139.7 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Est Cost (1000)" "0.048"
+			(at 139.7 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.8mm"
+			(at 139.7 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/C48997707.html?s_z=n_MCP6002"
+			(at 139.7 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "lingxingic"
+			(at 139.7 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No" "MCP6002T-I/SN(LX)"
+			(at 139.7 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMD"
 			(at 139.7 67.31 0)
 			(effects
 				(font
